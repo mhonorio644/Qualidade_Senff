@@ -1,0 +1,26 @@
+Teste QA
+
+
+1. SELECT *
+   FROM Test_client
+   WHERE test_adress LIKE 'São Paulo'
+
+
+
+2. UPDATE Test_client
+   SET test_users = 'Vitor', test_mails = 'teste@gmail.com'
+   WHERE test_mails = 'mateus@gmail.com'
+
+
+3.DELETE FROM test_client
+  WHERE test_adress IS NULL
+  AND idade > 75
+
+
+4. SELECT AVG(test_idade) AS media_idade
+   FROM test_client
+   WHERE test_adress ILIKE 'Belo Horizonte'
+
+
+
+   

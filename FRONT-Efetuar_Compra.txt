@@ -46,7 +46,7 @@ describe('Teste de compra de produto', () => {
     cy.get('#comprar').click();
 
     // 4. Finalizar a compra
-    cv.get('#Ok').click();
+    cv.get('#Ok').clicl();
 
     // 5. Validações finais
     cy.url().should('include', 'checkout-complete');
